@@ -33,4 +33,30 @@
 - 资源：
 - 踩坑：
 
+# Cmake(Windows)
+- [vscode中使用视频教程](https://www.bilibili.com/video/BV13K411M78v?p=2&vd_source=baa784078e67e28c38d26cf6881f8357)
+- 配置环境：g++ gcc cmake vscode cmake插件 cmaketools插件
+- 基于g++命令,生成带调试信息的可执行文件：
+    > g++ -g xx.cpp xxx.cpp -o xx(可执行文件的名字)
+- 基于cmake:
+  新建并编写CMakelists.txt
+    > project(NAME)
+    
+    > add_executable(name xx.cpp xxx.cpp)
+  进行多文件编译，调试（插件自动完成）
+  
+    > mkdir build
+    
+    > cd build
+    
+    > cmake ..
+    
+    > #如果电脑已经安装VS 可能会调用微软MSVC编译器，第一次使用（cmake -G "MinGW Makefiles" ..），后面还是（cmake ..）
+    
+    > mingw32-make.exe
+    
+ - 配置json
+  可以参考Study-Code仓库
+
+
 
