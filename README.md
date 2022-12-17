@@ -32,6 +32,7 @@
 
 - 资源：
 - 踩坑：
+1. 无法debug，编译"xxx exe Permission denied"：可能程序陷入死循环，任务管理器结束进程，并修改程序，重新编译即可，[参考](https://blog.csdn.net/gruhgd/article/details/83927041)
 
 # Cmake(Windows)
 - [vscode中使用视频教程](https://www.bilibili.com/video/BV13K411M78v?p=2&vd_source=baa784078e67e28c38d26cf6881f8357)
