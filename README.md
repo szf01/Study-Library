@@ -34,6 +34,8 @@
 - 踩坑：
 1. 无法debug，编译"xxx exe Permission denied"：可能程序陷入死循环，任务管理器结束进程，并修改程序，重新编译即可，[参考](https://blog.csdn.net/gruhgd/article/details/83927041)
 2. 编译报错"Error：redefinition of class xxx" : .h文件没有#pragma once ， [参考](https://blog.csdn.net/qq_31347869/article/details/94085312)
+3. 注意变量初始化习惯
+
 # Cmake(Windows)
 - [vscode中使用视频教程](https://www.bilibili.com/video/BV13K411M78v?p=2&vd_source=baa784078e67e28c38d26cf6881f8357)
 - 配置环境：g++ gcc cmake vscode cmake插件 cmaketools插件
